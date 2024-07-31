@@ -67,27 +67,27 @@ header{
     border-radius: 15px;
 }
 
-/* DIVISÃO 2 E DIVISÃO 3*/
-#section-2, #section-3{
+/* DIVISÃO 2, DIVISÃO 3 E DIVISÃO 4 */
+#section-2, #section-3, #section-4{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--primary-color);
 }
 
-.image-1 img, .image-2 img, .image-3 img{
+.image-1 img, .image-2 img, .image-3 img, .image-4 img, .image-5 img{
     width: 65vw;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
-.text-1, .text-2, .text-3{
+.text-1, .text-2, .text-3, .text-4, .text-5{
     width: 65%;
     margin: 16px auto;
     color: var(--secondary-color);
     font-size: 3.5vw;
 }
 
-.text-2, .text-3{
+.text-2, .text-3, .text-4, .text-5{
     margin: 10px 0px 10px 0px;
     font-size: 4.5vw;
 }
@@ -98,7 +98,7 @@ header{
     color: var(--secondary-color);
 }
 
-.button-2, .button-3{
+.button-2, .button-3, .button-4, .button-5, .button-6{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,4 +107,29 @@ header{
     width: 30%;
     height: 5vh;
     font-size: 2.5vw;
+}
+
+/* DIVISÃO 5 */
+#section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 40px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+body {
+    background-color: #8d6932;
 }
