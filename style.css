@@ -93,8 +93,8 @@ header{
 }
 
 .title-2{
-    margin-top: 85px;
-    font-size: 4.5vw;
+    margin: 100px 0px 0px 100px;
+    font-size: 3vw;
     color: var(--secondary-color);
 }
 
@@ -104,8 +104,8 @@ header{
     align-items: center;
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
-    width: 30%;
-    height: 5vh;
+    width: 20vw;
+    height: 6vh;
     font-size: 2.5vw;
 }
 
@@ -183,7 +183,7 @@ body {
     }
 
 
-    /* DIVISÃO 2 */
+    /* DIVISÃO 2, DIVISÃO 3 E DIVISÃO 4 */
     #section-2, #section-3, #section-4{
         flex-direction: row;
         justify-content: space-around;
@@ -193,11 +193,6 @@ body {
         width: 35vw;
         margin-top: 75px;
     }
-
-    .image-3 img{
-        margin-top: 250px;
-    }
-
     .container-4, .container-3{
         width: 35vw;
     }
@@ -213,6 +208,6 @@ body {
 
     .button-6{
         margin: 45px;
-        width: 30%;
+        width: 20vw;
     }
 }
