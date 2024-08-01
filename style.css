@@ -135,6 +135,7 @@ body {
 }
 
 @media(min-width: 992px){
+    /* HEADER */
     header{
         flex-direction: row;
         align-items: center;
@@ -157,6 +158,8 @@ body {
         font-size: 2vw;
     }
 
+    /* CORPO */
+    /* DIVISÃO 1 */
     #section-2{
         flex-direction: row;
     }
@@ -177,5 +180,39 @@ body {
 
     .text-1 p{
         width: 85%;
+    }
+
+
+    /* DIVISÃO 2 */
+    #section-2, #section-3, #section-4{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .image-1 img, .image-2 img, .image-3 img, .image-4 img, .image-5 img{
+        width: 35vw;
+        margin-top: 75px;
+    }
+
+    .image-3 img{
+        margin-top: 250px;
+    }
+
+    .container-4, .container-3{
+        width: 35vw;
+    }
+
+    .button-2, .button-3, .button-4, .button-5, .button-6{
+        width: 40%;
+        height: 50px;
+    }
+
+    .text-3 p{
+        width: 30vw;
+    }
+
+    .button-6{
+        margin: 45px;
+        width: 30%;
     }
 }
