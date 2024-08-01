@@ -36,3 +36,39 @@
     margin-top: 20px;
 }
 
+@media(min-width: 992px){
+    #section-6, #section-7, #section-8{
+        flex-direction: row;    
+    }
+
+    .image-6 img, .image-7 img, .image-8 img{
+        width: 26vw;
+    }
+
+    .image-7{
+        display: flex;
+        justify-content: end;
+    }
+
+    .container-7{
+        margin-top: 50px;
+        width: 36.8vw;
+    }
+
+    .text-8, .title-4{
+        width: 80%;
+    }
+
+    .text-7, .text-8, .text-9{
+        font-size: 1.6vw;
+        margin-top: 20px;
+    }
+
+    .container-6, .container-10{
+        margin-left: 11vw;
+    }
+
+    .title-3, .title-4, .title-5{
+        font-size: 2vw;
+    }
+}
