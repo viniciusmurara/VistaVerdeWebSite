@@ -1,0 +1,124 @@
+/* ALL CODE */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #8d6932;
+    --secondary-color: #C3E2B5;
+    --tertiary-color: #5C8442;
+}
+
+/* HEADER */
+a{
+    text-decoration: none;
+    color: #C3E2B5;
+    font-size: 2.5vw;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 18px 0px 0px 12px;
+    gap: 10vw;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+.logo img{
+    width: 40vw;
+}
+
+
+/* DIVISÃO 1 */
+#section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 75px auto;
+}
+
+.image-1 img{
+    width: 65vw;
+}
+
+.text-1, .title-1{
+    color: var(--secondary-color);
+    font-size: 3vw;
+    margin-top: 15px;
+}
+
+/* DIVISÃO 2 */
+#section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.image-2 img, .image-3 img, .image-4 img{
+    width: 65vw;
+    margin-bottom: 30px;
+}
+
+.title-2{
+    margin: 75px 0px 30px 17.3vw;
+    font-size: 2vw;
+    color: var(--secondary-color);
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+body {
+    background-color: #8d6932;
+}
+
+@media(min-width: 992px){
+    #section-1, #section-2{
+        flex-direction: row;
+    }
+
+    .image-1 img{
+        width: 28vw;
+    }
+
+    .image-2 img, .image-3 img, .image-4 img{
+        width: 21vw;
+        margin: 0px 9px 30px 9px;
+    }
+
+    .text-1, .title-1{
+        color: var(--secondary-color);
+        font-size: 2vw;
+        margin: 15px 0px 0px 10px;
+    }
+
+    .container-1, .container-2{
+        width: 50%;
+    }
+}
