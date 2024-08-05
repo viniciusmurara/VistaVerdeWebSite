@@ -24,7 +24,7 @@ Passo 1: Baixar o arquivo zipado<br>
 Passo 2: Descompactar o arquivo zipado<br>
 Passo 3: Instalar o Visual Studio Code<br>
 Passo 4: Abrir a pasta descompactada no Visual Studio Code<br>
-Passo 5: Instalar a extensão do Live Server
+Passo 5: Instalar a extensão do Live Server<br>
 Passo 6: Rodar o index.html com o Go Live
 
 ## Ferramentas Utilizadas
