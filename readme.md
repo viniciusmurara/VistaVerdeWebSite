@@ -17,6 +17,7 @@ Turma: AI PSIN MI-75
 
 ## Wireframe
 <img style="width: 200px" src="./img/wireframes.png">
+![Wireframe](./img/wireframe.png)<br>
 
 ## Como Acessar?
 
