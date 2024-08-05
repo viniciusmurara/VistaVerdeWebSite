@@ -1,5 +1,5 @@
 # Avaliação: Criação de Site Baseado em Wireframe
-![Logo](./img/logo-vista-verde.png.jpg)<br>
+![Logo](./img/logo-vista-verde.png)<br>
 Site criado usando um wireframe base fornecido pelo professor<br>
 <br>
 
@@ -13,10 +13,10 @@ Site criado usando um wireframe base fornecido pelo professor<br>
 Autor: Vinicius Vieira Murara<br>
 Turma: AI PSIN MI-75
 
-<img style="width: 200px" src="/img/autor.jpeg">
+<img style="width: 200px" src="./img/autor.jpeg">
 
 ## Wireframe
-<img style="width: 200px" src="/img/Wireframes.pdf">
+<img style="width: 200px" src="./img/Wireframes.pdf">
 
 ## Como Acessar?
 
